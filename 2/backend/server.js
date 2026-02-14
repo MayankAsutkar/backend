@@ -38,6 +38,9 @@ app.get('/api/jokes',(req,res) => {
     res.send(jokes);
 });
 
+
+// this is server
+
 const port = process.env.PORT || 3000;
 
 app.listen(port,() => {
